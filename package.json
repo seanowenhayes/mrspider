@@ -31,32 +31,10 @@
     "scraper",
     "screenscraper"
   ],
-  "scripts": {
-    "test": "mocha --require test/setup --recursive",
-    "test-watch": "mocha --require test/setup --recursive --watch",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/setup --reporter dot --check-leaks test/ --recursive",
-    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
-  },
+  "scripts": {},
   "dependencies": {
-    "async": "^1.5.0",
-    "coveralls": "^2.11.9",
-    "from2": "^2.1.1",
-    "mrspider-cheerio": "^1.1.0",
-    "mrspider-css-data-extractor": "^1.1.0",
-    "mrspider-css-image-extraction": "^1.1.0",
-    "mrspider-css-links": "^1.1.0",
-    "mrspider-jsdom": "^1.1.0",
-    "mrspider-mongodb-persister": "^1.1.0",
-    "mrspider-regex-data-extractor": "^1.1.0",
-    "mrspider-request": "^2.1.0",
-    "mrspider-validator": "^1.1.0"
-  },
-  "devDependencies": {
-    "chai": "^3.0.0",
-    "coveralls": "^2.11.3",
-    "istanbul": "^0.3.17",
-    "mocha": "^2.2.5",
-    "nock": "^2.6.0", 
-    "sinon": "^1.15.3"
+    "cheerio": "^1.0.0-rc.2",
+    "path-match": "^1.2.4",
+    "request": "^2.85.0"
   }
 }
