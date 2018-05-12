@@ -11,7 +11,7 @@ class PisosPageHandler extends CheerioPageHandler {
 }
 
 const spider = new Spider()
-spider.registerPageHandler(PisosPageHandler)
+spider.registerPageHandler(PisosPageHandler, 'www.pisos.com', '/')
 spider.addUrl(start)
 spider.start()
 
